@@ -1,0 +1,138 @@
+
+
+.modal {
+    display: none;
+}
+
+.modal-open {
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background: #fff;
+    z-index: 99999;
+    /* filter: blur(5px); */
+    border-radius: 10px;
+    box-shadow: 0 0 500px 500px rgba(0, 0, 0, 0.7);
+}
+
+.modal-header {
+    background: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    height: 20%;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header h3 {
+    font-size: 24px;
+}
+
+.modal-header img {
+    height: 40px;
+    width: 40px;
+}
+
+.modal-body {
+    padding: 10px;
+    /* height: 60%; */
+    margin: auto;
+}
+
+.modal-rank {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.modal-rank .modal-rank-title {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.modal-rank .modal-rank-title .serial-no {
+    background-color: #142683;
+    color: white;
+    height: 20px;
+    width: 20px;
+    /* padding: 20px; */
+    border-radius: 50%;
+    margin-right: 15px;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+.modal-rank > input {
+    all: none;
+    color: #142683;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0;
+    border: 2px solid #142683;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+
+.modal-footer {
+    height: 20%;
+    background: #f5f5f5;
+    border-top: 1px solid #e5e5e5;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.modal-footer button {
+    margin: 0 20px;
+    all: none;
+    outline: none;
+    font-weight: 600;
+}
+
+.modal-footer button.modal-cancel {
+    background: white;
+    color: #142683;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #142683;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-footer button.modal-save {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #142683;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #142683;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-footer button.modal-save img {
+    height: 12px;
+    width: 12px;
+    margin-left: 5px;
+}
+
+.modal-footer button:hover {
+    cursor: pointer;
+}
